@@ -4,5 +4,4 @@ Kita disini sudah belajar
 - CSS
 - Java Script
 sekarang sedang belajar github
-perkenalan tentang github
 pembuatan akun
