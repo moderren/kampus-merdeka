@@ -1,0 +1,41 @@
+h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color:green;
+    line-height: 7px;
+    }
+
+    input[type=text] {
+        width: 30%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        height: 3px;
+        border-style: double;
+        border-color: green;
+    }
+
+    input[type=inputbox] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border-style: outset;
+    }
+
+body{
+        border-color:green;
+        border-style:groove;
+        border-width:3px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    
+    input[type="button"]{
+    background-color: green;
+    font-family: 'Times New Roman', Times, serif;
+    color:aliceblue;
+    border-width: 3px;
+}
