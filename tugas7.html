@@ -1,0 +1,50 @@
+<script>
+    class Gempa {
+      constructor(lokasi, skala) {
+        this.lokasi = lokasi;
+        this.skala = skala;
+      }
+  
+      dampak() {
+        if (this.skala >= 0 && this.skala <= 2) {
+          document.write(
+            `Terjadi Gempa di ${this.lokasi} dengan skala ${this.skala} S.R dampaknya tidak terasa<hr />`
+          );
+        } else if (this.skala > 2 && this.skala <= 4) {
+          document.write(
+            `Terjadi Gempa di ${this.lokasi} dengan skala ${this.skala} S.R dampaknya bangunan retak retak<hr />`
+            );
+      } else if (this.skala > 4 && this.skala <= 6) {
+        document.write(
+          `Terjadi Gempa di ${this.lokasi} dengan skala ${this.skala} S.R dampaknya bangunan roboh<hr />`
+        );
+      } else if (this.skala > 6) {
+        document.write(
+          `Terjadi Gempa di ${this.lokasi} dengan skala ${this.skala} S.R dampaknya bangunan roboh dan berpotensi tsunami<hr />`
+        );
+      }
+    }
+  }
+  let Sumatera = new Gempa("sumatera",6);
+  let Manila = new Gempa("manila",3);
+  let Bangkok = new Gempa("bangkok",2);
+  let Tokyo = new Gempa("tokyo",5);
+  let Paris = new Gempa("paris",3);
+  let Berlin = new Gempa("berlin",4);
+  let Seoul = new Gempa("seoul",4);
+  let Roma = new Gempa("roma",3);
+  let London = new Gempa("london",6);
+  let Madrid = new Gempa("madrid",3);
+
+  Sumatera.dampak()
+  Manila.dampak()
+  Bangkok.dampak()
+  Tokyo.dampak()
+  Paris.dampak()
+  Berlin.dampak()
+  Seoul.dampak()
+  Roma.dampak()
+  London.dampak()
+  Madrid.dampak()
+
+</script>
