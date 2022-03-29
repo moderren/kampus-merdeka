@@ -1,0 +1,163 @@
+* :root {
+    /* * = universal (keseluruhan) */
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:darkblue
+    font-size: 12pt
+    line-height: 0.5cm;
+}
+h1{
+    color:green;
+    line-height: 1cm;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+fieldset,
+legend{
+    background-color: darkseagreen;
+    color: darkred;
+    border:4px solid rgb(63, 62, 59);
+    /* border-radius: 30px; */
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /* padding: 25px; all padding 
+    padding: 15px 5px; => atas-bawah:15px, kanan-kiri:px
+    */
+    padding: 10px 5px 10px 5px; 
+}
+body{
+    border: 5px;
+    margin:1cm 2cm;
+    background-color: coral;
+}
+hr{
+    border: 2px dashed maroon;
+}
+
+div#menu{
+    text-align: center;
+}
+
+/* -------- pseudo -------- */
+a:link, 
+a:active, 
+a:visited {
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 16pt;
+    font-weight: bold;
+    border:2px ridge red;
+    border-radius: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: darkolivegreen;
+    padding: 5px;
+    margin: 0 10;
+}
+a:hover {
+    text-decoration: none;
+    color:orangered;
+    font-size: 15pt;
+    font-weight: bolder;
+    border:2px ridge black;
+    border-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: yellow;
+    padding: 12px;
+}
+/* ------ pseudo element ------ */
+
+.p1:first-letter{
+    font-size: 30pt;
+    font-variant-position: 12pt;
+    color: darkgreen;
+    font-family: serif;
+    float:left;
+    margin-top: 10px;
+    padding-right: 5px;
+}
+p.p1::first-line {
+    font-style: italic;
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
+.profil {
+    font-weight: bold;
+    color:green;
+    font-family: Carlito;
+    font-size: 14pt;
+}
+.saat {
+    font-weight: bold;
+    color:green;
+    font-family: Carlito;
+    font-size: 14pt;
+}
+.paket1{
+    list-style-image: url('../icon/jempol.gif')
+}
+ul.sekolah {
+    list-style-image: url('../icon/star.jpg')
+}
+
+.paket {
+    list-style-image: url('../icon/good.png')
+}
+
+.paket2 {
+    list-style-image: url('../icon/star.jpg')
+}
+.bio {
+    list-style-image: url('../icon/heart.png')
+}
+#pendidikan {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#pendidikan td, 
+#pendidikan th {
+    border: 1px dotted green;
+    padding: 10px;
+}
+#pendidikan th {
+    padding: 10px 5px ;
+    text-align: left;
+    background-color: aqua;
+    color: white;
+}
+
+#pendidikan tr:nth-child(even){
+    background-color: darkslategrey;
+}  
+#pendidikan tr:nth-child(odd){
+    background-color: pink;
+}
+
+#pendidikan tr:hover {
+    background-color: darkorange;
+}
+
+#pendidikan{
+    border: 2px;
+}
+
+h3 { 
+    border:2px ridge black;
+    border-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+h2 {
+    border:2px ridge black;
+    border-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+
+  
